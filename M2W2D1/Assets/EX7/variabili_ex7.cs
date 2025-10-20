@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class variabili : MonoBehaviour
+public class variabili_ex7 : MonoBehaviour
 {
     public int number = 5;
     public int number2 = 10;
@@ -11,7 +11,7 @@ public class variabili : MonoBehaviour
     {
         if (number < number2)
         {
-            Debug.Log(+ number2);
+            Debug.Log(+ number);
         }
     }
 
