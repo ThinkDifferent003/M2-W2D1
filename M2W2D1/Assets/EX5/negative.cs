@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class reapet_negative : MonoBehaviour
+public class negative : MonoBehaviour
 {
-    public int startingNumber = 10;
+    public int number = 10;
     // Start is called before the first frame update
     void Start()
     {
-        int result = startingNumber - 1;
-        int result2 = startingNumber - 2;
+        int result = number - 1;
+        int result2 = number - 2;
         Debug.Log("Il numero prima è: " + result);
         Debug.Log("Il numero prima prima è: " + result2);
     }
